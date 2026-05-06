@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio cá nhân</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(to right, #007bff, #00c6ff);
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    section {
+      padding: 60px 0;
+    }
+    .avatar {
+      width: 200px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">Giới thiệu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Trải nghiệm</a></li>
+        <li class="nav-item"><a class="nav-link" href="#blog">Chia sẻ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#achievements">Thành tích</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Liên hệ</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<header>
+  <h1>Nguyễn Phúc Thịnh</h1>
+  <p>Tớ có cô bạn gái xinh đẹp</p>
+</header>
+
+<!-- Giới thiệu -->
+<section id="about" class="container">
+  <div class="row align-items-center">
+    <div class="col-md-4 text-center">
+      <img src="https://via.placeholder.com/200" class="avatar">
+    </div>
+    <div class="col-md-8">
+      <h2>Về tôi</h2>
+      <p>
+        Tôi là một lập trình viên đam mê công nghệ và mê gái yêu thích thiết kế web và phát triển ứng dụng.
+        Mục tiêu của tôi là trở thành một Hacker xuyên thế giới.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Trải nghiệm -->
+<section id="experience" class="bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Kinh nghiệm</h2>
+
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5>Kinh nghiệm hack</h5>
+        <p>Từng Hack fb ghệ cũ khi chia tay </p>
+        <p>Thầy thấy em có đẳng cấp không</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <h5>ABC</h5>
+        <p>abc </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Chia sẻ -->
+<section id="blog">
+  <div class="container">
+    <h2 class="text-center mb-4">ĐÀO TẠO Hacker</h2>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/300" class="card-img-top">
+          <div class="card-body">
+            <h5>Tốt nghiệp học viện Hacker</h5>
+            <p>Kinh nghiệm 100 năm</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/300" class="card-img-top">
+          <div class="card-body">
+            <h5>Tips lập trình</h5>
+            <p>Các mẹo giúp code nhanh hơn.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Liên hệ -->
+<section id="contact">
+  <div class="container">
+    <h2 class="text-center mb-4">Liên hệ</h2>
+
+    <form>
+      <div class="mb-3">
+        <label>Họ tên</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="mb-3">
+        <label>Email</label>
+        <input type="email" class="form-control">
+      </div>
+
+      <div class="mb-3">
+        <label>Nội dung</label>
+        <textarea class="form-control"></textarea>
+      </div>
+
+      <button class="btn btn-primary">Gửi</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3">
+  © 2026 - Portfolio cá nhân
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
