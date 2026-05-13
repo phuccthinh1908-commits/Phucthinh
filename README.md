@@ -1,0 +1,55 @@
+
+ </style>
+</head>
+<body>
+
+    <div class="login-box">
+
+        <div class="top">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Logo_Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Tr%C3%A0_Vinh.svg/1200px-Logo_Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Tr%C3%A0_Vinh.svg.png" class="logo">
+
+            <div class="subtitle">
+                PHẦN MỀM TIN HỌC <br>
+                ĐÁNH GIÁ KẾT QUẢ RÈN LUYỆN CHO SINH VIÊN CHÍNH QUY <br>
+                TẠI ĐẠI HỌC TRÀ VINH
+            </div>
+        </div>
+
+        <div class="form">
+
+            <div class="input-group">
+                <input type="email" placeholder="Email">
+                <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <input type="password" placeholder="Mật khẩu">
+                <div class="icon">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+            </div>
+
+            <div class="remember">
+                <input type="checkbox">
+                <label>Nhớ mật khẩu</label>
+            </div>
+
+            <button class="login-btn">Đăng nhập</button>
+
+            <button class="student-btn">
+                Sinh viên (Đăng nhập bằng Email Microsoft)
+            </button>
+
+            <button class="teacher-btn">
+                Giảng viên (Đăng nhập bằng Email TVU)
+            </button>
+
+            <a href="#" class="forgot">Quên mật khẩu?</a>
+
+        </div>
+    </div>
+
+</body>
+</html>
